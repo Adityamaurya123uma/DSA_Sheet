@@ -4,7 +4,7 @@ public:
         int n=nums.size();
         vector<int>out(n);
         
-        // Space complexity : O(n)
+        
         out[n-1]=1;
         for(int i=n-2;i>=0;i--){
             out[i]=out[i+1]*nums[i+1];
