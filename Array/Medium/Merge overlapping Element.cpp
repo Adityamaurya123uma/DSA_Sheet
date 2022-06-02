@@ -15,7 +15,7 @@ public:
         sort(intervals.begin(),intervals.end(),[](vector<int> &a, vector<int> &b){
             return a[0]<b[0];
         });
-        
+            
         vector<int> curr=intervals[0];
         
         for(int i=1;i<intervals.size();i++){
