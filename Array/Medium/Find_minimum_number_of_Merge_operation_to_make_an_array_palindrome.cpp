@@ -7,7 +7,7 @@ using namespace std;
 // required to make arr[] palindrome
 int findMinOps(int arr[], int n)
 {
-	int ans = 0; // Initialize result
+	int ans = 0; // Initialize result 
 
 	// Start from two corners
 	for (int i=0,j=n-1; i<=j;)
